@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Your Email Signature</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root { --sage:#A4B792; --deep:#5F7350; --ink:#2E2E2B; --muted:#6B6E66; --line:#DADCD3; --canvas:#E6E7E2; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--canvas); color:var(--ink); font-family:Montserrat, Arial, Helvetica, sans-serif; font-size:15.5px; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  .eyebrow { font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--deep); font-weight:bold; margin:0 0 8px; }
+  h1 { font-family:'Playfair Display', Georgia, serif; font-weight:normal; font-size:34px; line-height:1.2; margin:0 0 14px; }
+  h2 { font-family:'Playfair Display', Georgia, serif; font-weight:normal; font-size:24px; margin:0 0 12px; }
+  h3 { font-size:15px; margin:22px 0 6px; color:var(--deep); }
+  p { margin:0 0 14px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:28px; margin:0 0 20px; }
+  .sigbox { overflow-x:auto; padding:8px 0 4px; }
+  .btns { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:18px; }
+  button { font:600 15px Montserrat, Arial, sans-serif; padding:12px 22px; border-radius:8px; border:1px solid var(--sage); background:var(--sage); color:var(--ink); cursor:pointer; }
+  #status { color:var(--deep); font-size:14px; }
+  nav { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 20px; }
+  nav a { background:#fff; border:1px solid var(--line); border-radius:999px; padding:7px 14px; color:var(--deep); text-decoration:none; font-size:14px; font-weight:bold; }
+  ol { margin:0 0 6px; padding-left:22px; }
+  li { margin:0 0 8px; }
+  .tip { background:#F3F5EF; border-left:3px solid var(--sage); padding:12px 16px; border-radius:0 8px 8px 0; font-size:15px; margin:14px 0 0; }
+  .sign { font-family:'Playfair Display', Georgia, serif; font-style:italic; font-size:19px; margin:4px 0 0; }
+  footer { text-align:center; color:var(--muted); font-size:13px; margin-top:30px; }
+  footer a { color:var(--deep); }
+  .perks { list-style:none; padding:0; margin:0; }
+  .perks li { padding:0 0 14px 0; margin:0; }
+  .perks strong { display:block; color:var(--ink); }
+  .prices { width:100%; border-collapse:collapse; margin:4px 0 16px; }
+  .prices td { padding:12px 0; border-bottom:1px solid var(--line); vertical-align:top; }
+  .prices td.amt { text-align:right; white-space:nowrap; font-family:'Playfair Display', Georgia, serif; font-size:20px; color:var(--deep); padding-left:16px; }
+  .prices small { display:block; color:var(--muted); font-size:14px; }
+  .gift { background:var(--deep); color:#fff; border-radius:12px; padding:24px 28px; margin:0 0 16px; }
+  .gift h3 { color:#fff; margin:0 0 6px; font-size:17px; }
+  .gift p { margin:0; }
+  .cta { font-family:Montserrat, Arial, sans-serif; display:inline-block; background:var(--sage); color:var(--ink); text-decoration:none; font-weight:bold; padding:12px 22px; border-radius:8px; }
+  .fresh { border:2px solid var(--deep); background:linear-gradient(180deg, #E6E7E2 0px, #E6E7E2 30px, #EBF0E6 120px, #E2EADA 100%); box-shadow:0 6px 20px rgba(95,115,80,0.15); }
+  .fresh .prices td { border-bottom-color:rgba(95,115,80,0.25); }
+  .nosub { background:#fff; border:1px solid var(--line); border-radius:10px; padding:18px 20px; margin:0 0 18px; }
+  .nosub h3 { margin:0 0 6px; color:var(--deep); font-size:16px; }
+  .nosub p { margin:0; font-size:15px; }
+  .fresh { position:relative; margin-top:48px; padding-top:48px; }
+  .fresh-title { position:absolute; top:-24px; left:50%; transform:translateX(-50%); background:var(--canvas); padding:0 18px; text-align:center; white-space:nowrap; }
+  .fresh-title .big { display:block; font-family:'Playfair Display', Georgia, serif; font-size:30px; line-height:1.2; color:var(--ink); }
+  .fresh-title .small { display:block; font-family:Montserrat, Arial, sans-serif; font-size:11px; letter-spacing:4px; text-transform:uppercase; color:var(--deep); margin-top:2px; }
+  @media (max-width:520px) { .fresh-title .big { font-size:25px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">My Girl, Meagan Managed</p>
+  <h1>Hi Meagan! Your email signature is ready.</h1>
+  <p>Installing it only takes a few minutes. Pick the email app you use below and follow along. If anything looks off, just text me a screenshot and I'll take care of it.</p>
+
+
+  <div class="card">
+    <h2>What's included with your signature</h2>
+    <ul class="perks">
+      <li><strong>It's hosted by me.</strong>Your photo, buttons, and icons are hosted by me, not a 3rd party, so they won't be erased someday to make space without warning.</li>
+      <li><strong>Tap-to-call and tap-to-review.</strong>Your phone number dials with one tap on a phone, and the Google icon takes people straight to your reviews.</li>
+      <li><strong>Future updates are seamless.</strong>New headshot or refreshed logo? I swap the image on my end and it updates in your signature automatically, even in emails you've already sent, with nothing for you to reinstall. Changing text or a link (like a new title or booking link) just means I update this page and you copy and paste it again.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Step 1: Copy your signature</h2>
+    <p>Do this on your computer if you can (Chrome or Safari both work). Click the button below, then go to the instructions for your email app.</p>
+    <div class="sigbox" id="sig">
+<!-- SIGNATURE START -->
+<table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;">
+<tr>
+<td style="vertical-align:middle;padding:0 18px 0 0;"><img src="https://assets.mygirlmeagan.com/sosa-plumbing-services/meagan/headshot.png" width="110" height="110" alt="Meagan Cox" style="display:block;width:110px;height:110px;border:0;"></td>
+<td style="vertical-align:middle;padding:0 18px;border-left:3px solid #1A56DB;">
+<table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+<tr><td style="padding:0;font-family:Arial,Helvetica,sans-serif;font-size:19px;font-weight:bold;color:#1F2A37;">Meagan Cox</td></tr>
+<tr><td style="padding:2px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;color:#1A56DB;letter-spacing:1.5px;text-transform:uppercase;">Dispatcher</td></tr>
+<tr><td style="padding:2px 0 10px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#1F2A37;">Sosa Plumbing Services</td></tr>
+<tr><td style="padding:0 0 3px;font-family:Arial,Helvetica,sans-serif;font-size:13px;"><span style="color:#1A56DB;font-weight:bold;">Office</span>&nbsp; <a href="tel:+15129490662" style="color:#1F2A37;text-decoration:none;">(512) 949-0662</a></td></tr><tr><td style="padding:2px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;"><a href="https://sosaservicestx.com" style="color:#1A56DB;text-decoration:none;">sosaservicestx.com</a></td></tr>
+<tr><td style="padding:10px 0 0;"><table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr><td style="padding:0 6px 0 0;"><a href="https://www.facebook.com/sosaservicestx"><img src="https://assets.mygirlmeagan.com/sosa-plumbing-services/facebook.png" width="24" height="24" alt="Facebook" style="display:block;border:0;"></a></td><td style="padding:0 6px 0 0;"><a href="https://www.instagram.com/sosaservicestx/"><img src="https://assets.mygirlmeagan.com/sosa-plumbing-services/instagram.png" width="24" height="24" alt="Instagram" style="display:block;border:0;"></a></td><td style="padding:0 6px 0 0;"><a href="https://share.google/IvR7tpStv7BYev2uQ"><img src="https://assets.mygirlmeagan.com/sosa-plumbing-services/google.png" width="24" height="24" alt="Google reviews" style="display:block;border:0;"></a></td></tr></table></td></tr>
+</table>
+</td>
+<td style="vertical-align:middle;padding:0 0 0 4px;text-align:center;"><a href="https://sosaservicestx.com"><img src="https://assets.mygirlmeagan.com/sosa-plumbing-services/logo.png" width="150" height="114" alt="Sosa Plumbing Services" style="display:block;border:0;"></a>
+<table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:150px;"><tr><td style="padding:6px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#5B6472;text-align:center;">Master Plumber Lic. M-44799</td></tr></table></td>
+</tr>
+</table>
+<!-- SIGNATURE END -->
+    </div>
+    <div class="btns">
+      <button type="button" onclick="copySig()">Copy my signature</button>
+      <span id="status" role="status"></span>
+    </div>
+    <p class="tip">If the button doesn't work, click and drag to highlight the whole signature (your photo through the license number under the logo), then press Cmd + C on a Mac or Ctrl + C on a PC.</p>
+  </div>
+
+  <h2 style="margin:28px 0 12px;">Step 2: Paste it into your email</h2>
+  <nav>
+    <a href="#gmail">Gmail</a>
+    <a href="#outlook">Outlook</a>
+    <a href="#applemail">Apple Mail (Mac)</a>
+    <a href="#iphone">iPhone</a>
+    <a href="#android">Android</a>
+  </nav>
+
+  <div class="card" id="gmail">
+    <h2>Gmail</h2>
+    <ol>
+      <li>Open Gmail on your computer and click the <strong>gear icon</strong> in the top right, then <strong>See all settings</strong>.</li>
+      <li>Stay on the <strong>General</strong> tab and scroll down to <strong>Signature</strong>.</li>
+      <li>If you have an old signature there, click it and delete everything in the box. If not, click <strong>Create new</strong> and name it something like "Main."</li>
+      <li>Click inside the box and paste (Cmd + V or Ctrl + V).</li>
+      <li>Under <strong>Signature defaults</strong>, choose your new signature for both new emails and replies.</li>
+      <li>Scroll all the way down and click <strong>Save Changes</strong>.</li>
+    </ol>
+  </div>
+
+  <div class="card" id="outlook">
+    <h2>Outlook</h2>
+    <h3>Outlook on the web or the new Outlook app</h3>
+    <ol>
+      <li>Click the <strong>gear icon</strong> in the top right, then go to <strong>Account</strong> and <strong>Signatures</strong>.</li>
+      <li>Click <strong>New signature</strong>, give it a name, and paste into the box.</li>
+      <li>Under <strong>Select default signatures</strong>, pick it for new messages and for replies/forwards.</li>
+      <li>Click <strong>Save</strong>.</li>
+    </ol>
+    <h3>Classic Outlook on a PC</h3>
+    <ol>
+      <li>Go to <strong>File</strong>, then <strong>Options</strong>, then <strong>Mail</strong>, then the <strong>Signatures</strong> button.</li>
+      <li>Click <strong>New</strong>, name it, and paste into the edit box.</li>
+      <li>On the right, choose it for new messages and replies/forwards, then click <strong>OK</strong>.</li>
+    </ol>
+  </div>
+
+  <div class="card" id="applemail">
+    <h2>Apple Mail on a Mac</h2>
+    <ol>
+      <li>Open Mail and go to <strong>Mail</strong> in the top menu, then <strong>Settings</strong> (or <strong>Preferences</strong>), then <strong>Signatures</strong>.</li>
+      <li>Click your email account in the left column, then click the <strong>+</strong> button.</li>
+      <li>Uncheck <strong>Always match my default message font</strong>.</li>
+      <li>Delete the placeholder text in the right-hand box and paste your signature.</li>
+      <li>Close the window. It saves on its own.</li>
+    </ol>
+  </div>
+
+  <div class="card" id="iphone">
+    <h2>iPhone</h2>
+    <p>Your phone keeps its own signature, separate from your computer, so you'll set this one up too.</p>
+    <ol>
+      <li>On your iPhone, open this page in <strong>Safari</strong> and tap <strong>Copy my signature</strong> at the top.</li>
+      <li>Open <strong>Settings</strong>, then <strong>Apps</strong>, then <strong>Mail</strong>, then <strong>Signature</strong>. (On older iPhones it's <strong>Settings</strong>, then <strong>Mail</strong>, then <strong>Signature</strong>.)</li>
+      <li>Tap <strong>Per Account</strong>, delete "Sent from my iPhone" under your work email, and paste.</li>
+    </ol>
+    <p class="tip">If it pastes as plain text with no colors or pictures, shake your phone right away and tap <strong>Undo</strong>. That brings the formatted version back. The phone version may look a little simpler than on your computer, and that's normal.</p>
+  </div>
+
+  <div class="card" id="android">
+    <h2>Android</h2>
+    <h3>Gmail app</h3>
+    <p>Set up your signature in Gmail on your computer first (see the Gmail steps above). The Gmail app on Android will use that same signature as long as your phone doesn't have its own.</p>
+    <ol>
+      <li>Open the Gmail app and tap the <strong>menu</strong> (three lines) in the top left, then <strong>Settings</strong>.</li>
+      <li>Tap your work email address.</li>
+      <li>Find <strong>Mobile signature</strong>. If there's anything in it, delete it and save, or turn it off.</li>
+      <li>Send yourself a test email from your phone to make sure your full signature shows up.</li>
+    </ol>
+    <p class="tip">If the app still doesn't show your full signature, update the Gmail app in the Play Store and try again. Some phones are still getting this feature.</p>
+    <h3>Samsung Email or other email apps</h3>
+    <p>Most other Android email apps only allow a simple text signature without pictures. Tap the button below, then paste it into your app's signature setting (usually under <strong>Settings</strong>, then your account, then <strong>Signature</strong>).</p>
+    <pre id="textsig" style="white-space:pre-wrap; font-family:inherit; font-size:14px; background:#F3F5EF; border-radius:8px; padding:14px 16px; margin:0 0 12px;">Meagan Cox
+Dispatcher
+Sosa Plumbing Services
+Office: (512) 949-0662
+sosaservicestx.com
+Master Plumber Lic. M-44799</pre>
+    <div class="btns">
+      <button type="button" onclick="copyText()">Copy text version</button>
+      <span id="status2" role="status"></span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Step 3: Send yourself a test</h2>
+    <p>Send a quick email to yourself (or to me!) and open it on your computer and your phone. Make sure your photo and icons show up, then tap the phone number, the website, the logo, and the Facebook, Instagram, and Google icons to check they go to the right places.</p>
+    <p>That's it! If anything looks funny, send me a screenshot and I'll fix it.</p>
+  </div>
+
+
+
+  <footer>My Girl, Meagan Managed &middot; <a href="mailto:hello@mygirlmeagan.com">hello@mygirlmeagan.com</a> &middot; <a href="tel:+12515123137">(251) 512-3137</a></footer>
+</div>
+
+<script>
+  function say(m){ var s=document.getElementById('status'); s.textContent=m; setTimeout(function(){ s.textContent=''; }, 4000); }
+  async function copySig(){
+    var el=document.getElementById('sig');
+    try {
+      await navigator.clipboard.write([new ClipboardItem({
+        'text/html': new Blob([el.innerHTML.trim()], {type:'text/html'}),
+        'text/plain': new Blob([el.innerText], {type:'text/plain'})
+      })]);
+      say('Copied! Now paste it into your email settings.');
+    } catch(e) {
+      var r=document.createRange(); r.selectNodeContents(el);
+      var sel=window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+      try { document.execCommand('copy'); say('Copied! Now paste it into your email settings.'); }
+      catch(e2) { say('Highlighted. Press Cmd + C (Mac) or Ctrl + C (PC) to copy.'); }
+    }
+  }
+  async function copyText(){
+    var t=document.getElementById('textsig').innerText, s=document.getElementById('status2');
+    try { await navigator.clipboard.writeText(t); s.textContent='Copied!'; }
+    catch(e){ var r=document.createRange(); r.selectNodeContents(document.getElementById('textsig')); var sel=window.getSelection(); sel.removeAllRanges(); sel.addRange(r); s.textContent='Highlighted. Copy it from here.'; }
+    setTimeout(function(){ s.textContent=''; }, 4000);
+  }
+</script>
+</body>
+</html>
